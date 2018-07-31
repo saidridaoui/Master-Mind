@@ -20,24 +20,24 @@ void color(int Texte,int Fond){
 	HANDLE H = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(H,Fond*16+Texte);
 	}
-// fonction voiture Félicitation
+// fonction voiture FÃ©licitation
 void voiture(void){
 	for(k=0;k<=5;k++){
         color(k+9,0);
         for(i=0;i<=8;i++){
             v++;
             printf("\n\n\n");
-            for(j=0;j<=v;j++){printf("\t");} printf("         ²²²²²²²²²²²²²²²²²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("        ²²      ²²        ²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("       ²²²      ²²         ²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("      ²²²²      ²²          ²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("   ²²²²²²²²²²****************²²²²²²²²²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("   ²²²²²²²²²²* FELICITATION *²²²²²²²²²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("   ²²²²²²²²²²****************²²²²²²²²²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("   ²²²²²²      ²²²²²²²²²²²²²      ²²²²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("           ²²                 ²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("          ²²²²               ²²²² \n");
-            for(j=0;j<=v;j++){printf("\t");} printf("           ²²                 ²² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("         Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("        Â²Â²      Â²Â²        Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("       Â²Â²Â²      Â²Â²         Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("      Â²Â²Â²Â²      Â²Â²          Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("   Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²****************Â²Â²Â²Â²Â²Â²Â²Â²Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("   Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²* FELICITATION *Â²Â²Â²Â²Â²Â²Â²Â²Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("   Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²****************Â²Â²Â²Â²Â²Â²Â²Â²Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("   Â²Â²Â²Â²Â²Â²      Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²      Â²Â²Â²Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("           Â²Â²                 Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("          Â²Â²Â²Â²               Â²Â²Â²Â² \n");
+            for(j=0;j<=v;j++){printf("\t");} printf("           Â²Â²                 Â²Â² \n");
 
             color(15,0);
             printf("\n\n\n");
@@ -58,50 +58,50 @@ void voiture(void){
 // Logo Master Mind
 void logo(void){
 	color(10,0);printf("\n\n");
-                printf("\t\t\t\t\t ²²²   ²²²  ²²²          ²²²²   ²²²²²²²²²²  ²²²²²²²²  ²²²²²²    \n");Sleep(150);
-				printf("\t\t\t\t\t ²²²² ²²²²  ²²²²        ²²  ²²      ²²      ²²        ²²    ²²  \n");Sleep(150);
-				printf("\t\t\t\t\t ²² ²²² ²²  ²² ²²      ²²           ²²      ²²        ²²     ²² \n");Sleep(150);
-				printf("\t\t\t\t\t ²²  ²  ²²  ²²  ²²       ²²         ²²      ²²²²²²²²  ²²    ²²  \n");Sleep(150);
-				printf("\t\t\t\t\t ²²     ²²  ²²²²²²²        ²²       ²²      ²²        ²²²²²²    \n");Sleep(150);
-				printf("\t\t\t\t\t ²²     ²²  ²²    ²²        ²²      ²²      ²²        ²²   ²²   \n");Sleep(150);
-				printf("\t\t\t\t\t ²²     ²²  ²²     ²²  ²²  ²²       ²²      ²²        ²²    ²²  \n");Sleep(150);
-				printf("\t\t\t\t\t ²²     ²²  ²²      ²²  ²²²²        ²²      ²²²²²²²²  ²²     ²² \n\n\n");Sleep(150);
+                printf("\t\t\t\t\t Â²Â²Â²   Â²Â²Â²  Â²Â²Â²          Â²Â²Â²Â²   Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²  Â²Â²Â²Â²Â²Â²Â²Â²  Â²Â²Â²Â²Â²Â²    \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â²Â²Â² Â²Â²Â²Â²  Â²Â²Â²Â²        Â²Â²  Â²Â²      Â²Â²      Â²Â²        Â²Â²    Â²Â²  \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â² Â²Â²Â² Â²Â²  Â²Â² Â²Â²      Â²Â²           Â²Â²      Â²Â²        Â²Â²     Â²Â² \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â²  Â²  Â²Â²  Â²Â²  Â²Â²       Â²Â²         Â²Â²      Â²Â²Â²Â²Â²Â²Â²Â²  Â²Â²    Â²Â²  \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â²     Â²Â²  Â²Â²Â²Â²Â²Â²Â²        Â²Â²       Â²Â²      Â²Â²        Â²Â²Â²Â²Â²Â²    \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â²     Â²Â²  Â²Â²    Â²Â²        Â²Â²      Â²Â²      Â²Â²        Â²Â²   Â²Â²   \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â²     Â²Â²  Â²Â²     Â²Â²  Â²Â²  Â²Â²       Â²Â²      Â²Â²        Â²Â²    Â²Â²  \n");Sleep(150);
+				printf("\t\t\t\t\t Â²Â²     Â²Â²  Â²Â²      Â²Â²  Â²Â²Â²Â²        Â²Â²      Â²Â²Â²Â²Â²Â²Â²Â²  Â²Â²     Â²Â² \n\n\n");Sleep(150);
 
 	color(2,0);
-	printf("\t\t\t\t\t\t\t ²²²   ²²²  ²²²²²²²²  ²²²      ²²  ²²²²²²²    \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²²²² ²²²²     ²²     ²²²²     ²²  ²²    ²²   \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²² ²²² ²²     ²²     ²² ²²    ²²  ²²     ²²  \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²²  ²  ²²     ²²     ²²  ²²   ²²  ²²      ²² \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²²     ²²     ²²     ²²   ²²  ²²  ²²      ²² \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²²     ²²     ²²     ²²    ²² ²²  ²²     ²²  \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²²     ²²     ²²     ²²     ²²²²  ²²    ²²   \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t ²²     ²²  ²²²²²²²²  ²²      ²²²  ²²²²²²²    \n\n\n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²Â²   Â²Â²Â²  Â²Â²Â²Â²Â²Â²Â²Â²  Â²Â²Â²      Â²Â²  Â²Â²Â²Â²Â²Â²Â²    \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²Â²Â² Â²Â²Â²Â²     Â²Â²     Â²Â²Â²Â²     Â²Â²  Â²Â²    Â²Â²   \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â² Â²Â²Â² Â²Â²     Â²Â²     Â²Â² Â²Â²    Â²Â²  Â²Â²     Â²Â²  \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²  Â²  Â²Â²     Â²Â²     Â²Â²  Â²Â²   Â²Â²  Â²Â²      Â²Â² \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²     Â²Â²     Â²Â²     Â²Â²   Â²Â²  Â²Â²  Â²Â²      Â²Â² \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²     Â²Â²     Â²Â²     Â²Â²    Â²Â² Â²Â²  Â²Â²     Â²Â²  \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²     Â²Â²     Â²Â²     Â²Â²     Â²Â²Â²Â²  Â²Â²    Â²Â²   \n");Sleep(150);
+	printf("\t\t\t\t\t\t\t Â²Â²     Â²Â²  Â²Â²Â²Â²Â²Â²Â²Â²  Â²Â²      Â²Â²Â²  Â²Â²Â²Â²Â²Â²Â²    \n\n\n");Sleep(150);
 	color(11,0);
-	printf("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBy: - Radwane Mabchour \n");Sleep(150);
-	printf("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    - Nawfal Rabit \n\n\n");Sleep(250);
+	printf("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBy: - Said Ridaoui \n");Sleep(150);
+	
 	}
 //Felicitation
 void felicitation(void){
-    color(0,0);printf("\t\t ²²²²²²²²²²²²     ²²                  ²²²² \n");Sleep(150);
-	color(1,0);printf("\t\t ²²²²²²²²²²²²     ²²                ²²²²²²     ²²²²²²²²²²         ²²²²²²²²²²                             \n");Sleep(100);
-	color(2,0);printf("\t\t ²²               ²²              ²²               ²²                 ²²                                 \n");Sleep(100);
-	color(3,0);printf("\t\t ²²        ÛÛÛ    ²²        ÛÛ  ²²            ÛÛ   ²²                 ²²     ÛÛ                          \n");Sleep(100);
-	color(4,0);printf("\t\t ²²²²²²²  ÛÛ ÛÛ   ²²           ²²                  ²²       ÛÛÛÛÛ     ²²              ²²²        ÛÛ ÛÛÛÛÛ    \n");Sleep(100);
-	color(5,0);printf("\t\t ²²      ÛÛ   ÛÛ  ²²        ÛÛ ²²             ÛÛ   ²²     ÛÛ     ÛÛ   ²²     ÛÛ     ²²   ²²      ÛÛÛ    ÛÛ    \n");Sleep(100);
-	color(6,0);printf("\t\t ²²     ÛÛ   ÛÛ   ²²        ÛÛ ²²             ÛÛ   ²²   ÛÛ        ÛÛ  ²²     ÛÛ    ²² ²____²²    ÛÛ     ÛÛ   \n");Sleep(100);
-	color(7,0);printf("\t\t ²²     ÛÛÛÛÛ     ²²        ÛÛ  ²²            ÛÛ   ²²   ÛÛ        ÛÛ  ²²     ÛÛ   ²²       ²²    ÛÛ     ÛÛ   \n");Sleep(100);
-	color(8,0);printf("\t\t ²²     ÛÛ     Û  ²²        ÛÛ    ²²          ÛÛ   ²²    ÛÛ       ÛÛ  ²²     ÛÛ    ²²     ²²     ÛÛ     ÛÛ   \n");Sleep(100);
-	color(9,0);printf("\t\t ²²       ÛÛÛÛÛ   ²²²²²²²² ÛÛÛÛ     ²²²²²²   ÛÛÛÛ  ²²     ÛÛÛÛÛÛÛ ÛÛ  ²²    ÛÛÛÛ     ²²²²²       ÛÛ     ÛÛ   \n\n\n");Sleep(250);
+    color(0,0);printf("\t\t Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²     Â²Â²                  Â²Â²Â²Â² \n");Sleep(150);
+	color(1,0);printf("\t\t Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²     Â²Â²                Â²Â²Â²Â²Â²Â²     Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²         Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²                             \n");Sleep(100);
+	color(2,0);printf("\t\t Â²Â²               Â²Â²              Â²Â²               Â²Â²                 Â²Â²                                 \n");Sleep(100);
+	color(3,0);printf("\t\t Â²Â²        Ã›Ã›Ã›    Â²Â²        Ã›Ã›  Â²Â²            Ã›Ã›   Â²Â²                 Â²Â²     Ã›Ã›                          \n");Sleep(100);
+	color(4,0);printf("\t\t Â²Â²Â²Â²Â²Â²Â²  Ã›Ã› Ã›Ã›   Â²Â²           Â²Â²                  Â²Â²       Ã›Ã›Ã›Ã›Ã›     Â²Â²              Â²Â²Â²        Ã›Ã› Ã›Ã›Ã›Ã›Ã›    \n");Sleep(100);
+	color(5,0);printf("\t\t Â²Â²      Ã›Ã›   Ã›Ã›  Â²Â²        Ã›Ã› Â²Â²             Ã›Ã›   Â²Â²     Ã›Ã›     Ã›Ã›   Â²Â²     Ã›Ã›     Â²Â²   Â²Â²      Ã›Ã›Ã›    Ã›Ã›    \n");Sleep(100);
+	color(6,0);printf("\t\t Â²Â²     Ã›Ã›   Ã›Ã›   Â²Â²        Ã›Ã› Â²Â²             Ã›Ã›   Â²Â²   Ã›Ã›        Ã›Ã›  Â²Â²     Ã›Ã›    Â²Â² Â²____Â²Â²    Ã›Ã›     Ã›Ã›   \n");Sleep(100);
+	color(7,0);printf("\t\t Â²Â²     Ã›Ã›Ã›Ã›Ã›     Â²Â²        Ã›Ã›  Â²Â²            Ã›Ã›   Â²Â²   Ã›Ã›        Ã›Ã›  Â²Â²     Ã›Ã›   Â²Â²       Â²Â²    Ã›Ã›     Ã›Ã›   \n");Sleep(100);
+	color(8,0);printf("\t\t Â²Â²     Ã›Ã›     Ã›  Â²Â²        Ã›Ã›    Â²Â²          Ã›Ã›   Â²Â²    Ã›Ã›       Ã›Ã›  Â²Â²     Ã›Ã›    Â²Â²     Â²Â²     Ã›Ã›     Ã›Ã›   \n");Sleep(100);
+	color(9,0);printf("\t\t Â²Â²       Ã›Ã›Ã›Ã›Ã›   Â²Â²Â²Â²Â²Â²Â²Â² Ã›Ã›Ã›Ã›     Â²Â²Â²Â²Â²Â²   Ã›Ã›Ã›Ã›  Â²Â²     Ã›Ã›Ã›Ã›Ã›Ã›Ã› Ã›Ã›  Â²Â²    Ã›Ã›Ã›Ã›     Â²Â²Â²Â²Â²       Ã›Ã›     Ã›Ã›   \n\n\n");Sleep(250);
 	color(3,0);
-	puts("\t\t\t\t\t\t\t            ²²            ");Sleep(50);
-	puts("\t\t\t\t\t\t\t           ²²²²           ");Sleep(50);
-	puts("\t\t\t\t\t\t\t         ²²²²²²²²         ");Sleep(50);
-	puts("\t\t\t\t\t\t\t       ²²²²²²²²²²²²       ");Sleep(50);
-	puts("\t\t\t\t\t\t\t      ²²²²²²²²²²²²²²      ");Sleep(50);
-	puts("\t\t\t\t\t\t\t     ²²²²²²    ²²²²²²     ");Sleep(50);
-	puts("\t\t\t\t\t\t\t    ²²²²²        ²²²²²    ");Sleep(50);
-	puts("\t\t\t\t\t\t\t   ²²²              ²²²   ");Sleep(50);
-	puts("\t\t\t\t\t\t\t  ²²   FeliCitaTioN   ²²  ");Sleep(50);
+	puts("\t\t\t\t\t\t\t            Â²Â²            ");Sleep(50);
+	puts("\t\t\t\t\t\t\t           Â²Â²Â²Â²           ");Sleep(50);
+	puts("\t\t\t\t\t\t\t         Â²Â²Â²Â²Â²Â²Â²Â²         ");Sleep(50);
+	puts("\t\t\t\t\t\t\t       Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²       ");Sleep(50);
+	puts("\t\t\t\t\t\t\t      Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²      ");Sleep(50);
+	puts("\t\t\t\t\t\t\t     Â²Â²Â²Â²Â²Â²    Â²Â²Â²Â²Â²Â²     ");Sleep(50);
+	puts("\t\t\t\t\t\t\t    Â²Â²Â²Â²Â²        Â²Â²Â²Â²Â²    ");Sleep(50);
+	puts("\t\t\t\t\t\t\t   Â²Â²Â²              Â²Â²Â²   ");Sleep(50);
+	puts("\t\t\t\t\t\t\t  Â²Â²   FeliCitaTioN   Â²Â²  ");Sleep(50);
 	puts("\t\t\t\t\t\t\t  V       !!!!!        V  ");Sleep(1000);
 	system("cls");
 }
@@ -109,30 +109,30 @@ void felicitation(void){
 void game_over(void){
     color(12,0);
     printf("\n\n");
-    printf("\t\t\t ²²²²²²    ²²²²²²²   ²²   ²²   ²²²²²²  \t\t   ²²²²²²    ²²          ²²   ²²²²²²   ²²²²²² \n");Sleep(30);
-    printf("\t\t\t²²    ²²   ²²   ²²   ²²² ²²²   ²²      \t\t  ²²    ²²    ²²        ²²    ²²       ²²   ²² \n");Sleep(30);
-    printf("\t\t\t²²         ²²   ²²   ²² ² ²²   ²²      \t\t  ²²    ²²     ²²      ²²     ²²       ²²   ²² \n");Sleep(30);
-    printf("\t\t\t²²  ²²²²   ²²²²²²²   ²²   ²²   ²²²²²²  \t\t  ²²    ²²      ²²    ²²      ²²²²²²   ²²²²²² \n");Sleep(30);
-    printf("\t\t\t²²    ²²   ²²   ²²   ²²   ²²   ²²      \t\t  ²²    ²²       ²²  ²²       ²²       ²²   ²² \n");Sleep(30);
-    printf("\t\t\t²²    ²²   ²²   ²²   ²²   ²²   ²²      \t\t  ²²    ²²        ²²²²        ²²       ²²    ²² \n");Sleep(30);
-    printf("\t\t\t ²²²²²²    ²²   ²²   ²²   ²²   ²²²²²²  \t\t   ²²²²²²          ²²         ²²²²²²   ²²     ²² \n");Sleep(30);
+    printf("\t\t\t Â²Â²Â²Â²Â²Â²    Â²Â²Â²Â²Â²Â²Â²   Â²Â²   Â²Â²   Â²Â²Â²Â²Â²Â²  \t\t   Â²Â²Â²Â²Â²Â²    Â²Â²          Â²Â²   Â²Â²Â²Â²Â²Â²   Â²Â²Â²Â²Â²Â² \n");Sleep(30);
+    printf("\t\t\tÂ²Â²    Â²Â²   Â²Â²   Â²Â²   Â²Â²Â² Â²Â²Â²   Â²Â²      \t\t  Â²Â²    Â²Â²    Â²Â²        Â²Â²    Â²Â²       Â²Â²   Â²Â² \n");Sleep(30);
+    printf("\t\t\tÂ²Â²         Â²Â²   Â²Â²   Â²Â² Â² Â²Â²   Â²Â²      \t\t  Â²Â²    Â²Â²     Â²Â²      Â²Â²     Â²Â²       Â²Â²   Â²Â² \n");Sleep(30);
+    printf("\t\t\tÂ²Â²  Â²Â²Â²Â²   Â²Â²Â²Â²Â²Â²Â²   Â²Â²   Â²Â²   Â²Â²Â²Â²Â²Â²  \t\t  Â²Â²    Â²Â²      Â²Â²    Â²Â²      Â²Â²Â²Â²Â²Â²   Â²Â²Â²Â²Â²Â² \n");Sleep(30);
+    printf("\t\t\tÂ²Â²    Â²Â²   Â²Â²   Â²Â²   Â²Â²   Â²Â²   Â²Â²      \t\t  Â²Â²    Â²Â²       Â²Â²  Â²Â²       Â²Â²       Â²Â²   Â²Â² \n");Sleep(30);
+    printf("\t\t\tÂ²Â²    Â²Â²   Â²Â²   Â²Â²   Â²Â²   Â²Â²   Â²Â²      \t\t  Â²Â²    Â²Â²        Â²Â²Â²Â²        Â²Â²       Â²Â²    Â²Â² \n");Sleep(30);
+    printf("\t\t\t Â²Â²Â²Â²Â²Â²    Â²Â²   Â²Â²   Â²Â²   Â²Â²   Â²Â²Â²Â²Â²Â²  \t\t   Â²Â²Â²Â²Â²Â²          Â²Â²         Â²Â²Â²Â²Â²Â²   Â²Â²     Â²Â² \n");Sleep(30);
 }
 //fonction qui lance le chargement en cours:
 void zizo(void){
 	color(13,0);
     printf("\n\n\n\n\t\t\t\t\t\t\t\tCHARGEMENT EN COURS ...\n");
 	int zoz;
-	printf("\t\t\t\t\t²");
+	printf("\t\t\t\t\tÂ²");
 	for(zoz=0;zoz<20;zoz++){
-	printf("²");Sleep(60);}
+	printf("Â²");Sleep(60);}
 	for(zoz=20;zoz<30;zoz++){
-		printf("²");Sleep(100);}
+		printf("Â²");Sleep(100);}
 	for(zoz=30;zoz<70;zoz++){
-	printf("²");Sleep(10);}
+	printf("Â²");Sleep(10);}
 
 	system("cls");
 	}
-//fonction qui evite la répétition et les nombres supérieures à 9 pour le code du joueur 1
+//fonction qui evite la rÃ©pÃ©tition et les nombres supÃ©rieures Ã  9 pour le code du joueur 1
 void rep_a(void){
 	compteur=0;x=0;
 	while(x==0){
@@ -157,7 +157,7 @@ void rep_a(void){
 	if(y!=1 && y!=2){x=3;}
 	}
 }
-//fonction qui evite la répétition pour b:
+//fonction qui evite la rÃ©pÃ©tition pour b:
 void rep_b(void){
 	x=0;compteur=0;
 	while(x==0){
@@ -190,10 +190,10 @@ void menu_0(void){
 	if(cho==1){
 		color(15,0);
 		printf("\n\n\n \t Principe : trouver un code de 5 chiffres en se basant sur le nombre des \n\t\tchiffres biens places et mal places.\n\n\t ");Sleep(200);
-		printf("Methode : Le jeu doit se derouler en suivant les etapes suivantes :\n\t\t 1. Le joueur 1 propose un code (entrée au clavier de 5 chiffres)");
+		printf("Methode : Le jeu doit se derouler en suivant les etapes suivantes :\n\t\t 1. Le joueur 1 propose un code (entrÃ©e au clavier de 5 chiffres)");
 		printf("\n\t\t 2. Le joueur 2 propose un autre code de 5 chiffres.\n\t\t 3. Le programme indique le nombre des chiffres bien places et mal places.");
-		printf("\n\t\t 4. Si le code est trouve le programme s’arrete.\n");
-		printf("\t\t 5. Si le nombre max d’essai est atteint (20 tentatives), le jeu s’arrête avec affichage du code.\n\n\n");
+		printf("\n\t\t 4. Si le code est trouve le programme sÂ’arrete.\n");
+		printf("\t\t 5. Si le nombre max dÂ’essai est atteint (20 tentatives), le jeu sÂ’arrÃªte avec affichage du code.\n\n\n");
 		system("pause");
 	}
 	color(3,0);
@@ -284,7 +284,7 @@ while(choix==1){
 		color(15,0);
 if(z==1){
 puts("Joueur N_1 entrer le code:");
-rep_a();                                     // Vérification du code du joueur 1 (si les chiffres se répétent ou si il se trouve un chiffres >=10
+rep_a();                                     // VÃ©rification du code du joueur 1 (si les chiffres se rÃ©pÃ©tent ou si il se trouve un chiffres >=10
 system("cls");
 puts("le code est:");
 for(k=0;k<=4;k++){printf("%d",a[k]);Sleep(150);}
@@ -292,7 +292,7 @@ system("cls");
 while((r<20)&&(c!=5)){
 		if(h==10){
 			color(3,0);
-			puts("\t Vous etes dans l'essai 10 vous pouvez utiliser le JKOKER.\n\n Le JOKER te rend la posibilité de savoir un chiffre du code.\n Mais si vous utiliserez le JOKER vous perderez 3 essaies \n ----> !! vous pouvez l'utuliser juste une seule foi !!\n\n - si vous voulez utiliser le JOKER tapper '1'\n - sinon tapper '0'");Sleep(150);
+			puts("\t Vous etes dans l'essai 10 vous pouvez utiliser le JKOKER.\n\n Le JOKER te rend la posibilitÃ© de savoir un chiffre du code.\n Mais si vous utiliserez le JOKER vous perderez 3 essaies \n ----> !! vous pouvez l'utuliser juste une seule foi !!\n\n - si vous voulez utiliser le JOKER tapper '1'\n - sinon tapper '0'");Sleep(150);
 			puts("\n\n tapper votre choix");scanf("%d",&jok);
 			ver_Jok();}
 			color(15,0);
@@ -323,7 +323,7 @@ while((r<20)&&(c!=5)){
 	color(15,0);
 	printf("\n\n Joueur N_2: \n\n Tentative %d : ",h);
 	m=0;
-	rep_b();                                   // Vérification du code du joueur 2 (si les chiffres se répétent ou si il se trouve un chiffres >=10
+	rep_b();                                   // VÃ©rification du code du joueur 2 (si les chiffres se rÃ©pÃ©tent ou si il se trouve un chiffres >=10
 	master1();
 	if(c==5){
 			system("cls");
@@ -353,7 +353,7 @@ system("cls");
 while((r<20)&&(c!=5)){
 		if(h==10){
 			color(3,0);
-			puts("\t Vous etes dans l'essai 10 vous pouvez utiliser le JKOKER.\n\n Le JOKER te rend la posibilité de savoir un chiffre du code.\n Mais si vous utiliserez le JOKER vous perderez 3 essaies \n ----> !! vous pouvez l'utuliser juste une seule foi !!\n\n - si vous voulez utiliser le JOKER tapper '1'\n - sinon tapper '0'");Sleep(150);
+			puts("\t Vous etes dans l'essai 10 vous pouvez utiliser le JKOKER.\n\n Le JOKER te rend la posibilitÃ© de savoir un chiffre du code.\n Mais si vous utiliserez le JOKER vous perderez 3 essaies \n ----> !! vous pouvez l'utuliser juste une seule foi !!\n\n - si vous voulez utiliser le JOKER tapper '1'\n - sinon tapper '0'");Sleep(150);
 			puts("\n\n tapper votre choix");scanf("%d",&jok);
 			ver_Jok();}
 			color(15,0);
